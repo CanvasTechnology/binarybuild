@@ -1,0 +1,18 @@
+binarybuild/silenced
+
+Here are some things you need to know to use binarybuild
+
+At Line 1, use a type of binarybuild code.
+
+Types of BinaryBuild Code:
+
+*binarybuild: set build
+-- Builds the project
+binarybuild
+-- A regular binarybuild code
+binarybuild/silenced
+-- A binarybuild code that doesn't run, and is usually used for just specifying how to use a binarybuild code and run it
+~binarybuild
+-- A binarybuild code that can be used to specify a user and add things like permissions, or something that doesn't have a filetype, and is just named for example, "permissions" without .binarybuild, .txt, or .build
+@binarybuild/setup/codetype/newInformation
+-- Sets a new codetype, so that you can specify commands to use in a build.
